@@ -18,8 +18,8 @@
               :source-paths ["src"]
               :compiler {
                 ;:target :nodejs
-                :output-dir "out"
-                :output-to "out/hello.js"
+                :output-dir "target"
+                :output-to "target/hello.js"
                 :optimizations :none
                 ;:optimizations :advanced
                 :source-map true}}]})
